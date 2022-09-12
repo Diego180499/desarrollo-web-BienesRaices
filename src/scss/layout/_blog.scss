@@ -1,0 +1,14 @@
+.contenedor-blog{
+    @include tablet{
+        margin: 6.5rem;
+    }
+    
+    .entrada-blog{
+        margin-bottom: 4rem;
+    }
+}
+
+.copyright{
+    color: $blanco;
+    margin-bottom: 0;
+}

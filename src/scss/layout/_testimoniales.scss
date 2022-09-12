@@ -1,0 +1,60 @@
+@include tablet{
+
+    .blog-testimoniales{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 2rem;
+    }
+}
+
+.entrada-blog{
+    margin-bottom: 2rem;
+
+    @include tablet{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 2rem;
+    }
+}
+
+.texto-entrada{
+    a{
+        color: black;
+    }
+
+    h4{
+        font-weight: 900;
+        margin: 0;
+
+        &::after{
+            content:'';
+            display: block;
+            width: 14rem;
+            height: 0.5rem;
+            background-color: $verde;
+        }
+    }
+
+    span{
+        font-weight: 900;
+        color: $amarillo;
+    }
+}
+
+.contenedor-testimoniales{
+    background-color: $verde;
+    padding: 1rem 2rem;
+    border-radius: 3%;
+    p{
+        color: $blanco;
+    }
+    span{
+        font-size: 5rem;
+        color: $blanco;
+    }
+
+    .autor{
+        font-weight: bold;
+        color: $blanco;
+    }
+}

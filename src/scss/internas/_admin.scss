@@ -1,0 +1,80 @@
+.alerta{
+
+    p{
+        color: white;
+        margin-bottom: 1rem;
+        text-align: center;
+        padding: 1rem 2rem;
+        background-color: red;
+    }
+
+    &.error{
+        background-color: red;
+    }    
+}
+
+.notificacion{
+    color: white;
+    text-align: center;
+    padding: 0;
+    background-color: darkblue;
+}
+
+.exito{
+    color: white;
+    text-align: center;
+    padding: 0;
+    background-color: green;
+}
+
+table.propiedades{
+    margin-top: 4rem;
+    width: 100%;
+    border-spacing: 0;
+
+    thead{
+        background-color: $verde;
+        th{
+            color: white;
+        }
+    }
+
+    tr td{
+        font-weight: bold;
+        text-align: center;
+        img{
+            margin: 0 auto;
+        }
+    }
+}
+
+.imagen-propiedad{
+    width: 25rem;
+}
+
+.imagen-update{
+    width: 30rem;
+    margin: 0 auto;
+}
+
+.tabla-vendedores{
+   margin: 0 auto;
+   width: 100%;
+    border-spacing: 0;
+   td{
+       text-align: center;
+       padding: 1rem 2rem;
+   }
+
+   thead{
+       background-color: $verde;
+   }
+}
+
+
+.error{
+    color: white;
+    text-align: center;
+    padding: 0;
+    background-color: darkred;
+}

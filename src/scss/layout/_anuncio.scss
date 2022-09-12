@@ -1,0 +1,29 @@
+.iconos-anuncio{
+    width: 300px;
+    margin: 0 auto;
+}
+
+.resumen-propiedad{
+    .precio{
+        text-align: center;
+        color: $verde;
+        font-weight: 900;
+        @include tablet{
+            font-size: 5rem;
+        }
+    }
+
+    .descripcion{
+       padding: 3rem;
+       text-align: center;
+    }
+    span{
+        font-weight: bold;
+    }
+}
+
+.imagen-unica{
+    width: 75%;
+    margin: 0 auto;
+}
+
